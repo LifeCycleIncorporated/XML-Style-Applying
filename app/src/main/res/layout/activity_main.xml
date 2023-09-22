@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:gravity="center"
+    tools:context=".MainActivity">
+
+    <TextView
+        android:text="Style No 1"
+
+        style="@style/style1"
+        />
+
+    <TextView
+        android:text="Style No 2"
+        style="@style/style1.style2"
+        />
+
+    <TextView
+        android:text="Style No 3"
+        style="@style/style1"
+        />
+
+</LinearLayout>
